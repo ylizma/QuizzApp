@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Quizzy</string>
+    <string name="welcome_msg">Welcome in Quizzy</string>
+    <string name="choice_text">Number of Questions :</string>
+    <string name="choice_text_cat">Category :</string>
+    <string name="default_value">10</string>
+    <string name="ok_btn_start">Ok</string>
+    <string name="title_activity_home">Home</string>
+    <string name="errormsg">Number should be greater then 0 and less then 100</string>
+
+</resources>

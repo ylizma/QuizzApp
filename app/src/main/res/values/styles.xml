@@ -1,0 +1,39 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/bgcolor</item>
+    </style>
+
+    <style name="welcomestyle" parent="Theme.AppCompat">
+        <item name="android:textColor">@color/bgtextcolor</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="chooseStyle" parent="Theme.AppCompat">
+        <item name="android:textColor">@color/bgtextcolor</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="homescoretextstyle" parent="Theme.AppCompat">
+        <item name="android:textColor">@color/bgtextcolor</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+    <style name="errorinput" parent="Theme.AppCompat">
+        <item name="android:textColor">@color/error</item>
+         <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+    <style name="questionStyle">
+        <item name="android:textColor">@color/bgtextcolor</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:lineSpacingExtra">12dp</item>
+    </style>
+
+</resources>
