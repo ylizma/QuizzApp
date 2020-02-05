@@ -59,7 +59,7 @@ public class HomeActivity extends AppCompatActivity {
 
     void startAll() {
         queue = Volley.newRequestQueue(getApplicationContext());
-        url = "https://opentdb.com/api.php?amount=" + this.choosedNumber + "&type=multiple";
+        url = "https://opentdb.com/api.php?amount=" + this.choosedNumber + "&category=18&type=multiple";
         StringRequest stringRequest = new StringRequest(Request.Method.GET, url, response -> {
             try {
                 JSONObject allObject = new JSONObject(response);
